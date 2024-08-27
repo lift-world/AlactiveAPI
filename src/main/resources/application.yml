@@ -1,0 +1,18 @@
+dgs:
+  graphql:
+    schema-locations:
+      - classpath*:schema/**/*.graphql*
+server:
+  port: 80
+spring:
+  application:
+    name: ActiveAPI
+alactive:
+  database:
+    uri: ${NEO4J_URI}
+    username: ${NEO4J_USERNAME}
+    password: ${NEO4J_PASSWORD}
+  endpoint:
+    id-generator-uri: ${ID_GENERATOR_URI}
+    recommendation-uri: http://???
+    s3-uri: ${S3_URI}

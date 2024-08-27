@@ -1,0 +1,3 @@
+[submodule "src/main/kotlin/app/alactive/api/schema"]
+	path = src/main/kotlin/app/alactive/api/schema
+	url = git@github.com:Alactive/ActiveSchema.git
